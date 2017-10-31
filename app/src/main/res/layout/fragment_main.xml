@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    tools:context="com.example.jorgecaro.info_usuario_jorge_caro.Fragments.MainFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_report_problem"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/login_result" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp"
+            android:text="@string/email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/danger_message" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_settings_applications"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+</RelativeLayout>

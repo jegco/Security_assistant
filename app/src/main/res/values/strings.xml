@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_message">Bienvenido a tu asistente de seguridad</string>
+    <string name="login">Inicie sesion con sus redes sociales para empezar</string>
+    <string name="login_result">Has ingresado en asistente de seguridad como:</string>
+    <string name="email">Email</string>
+    <string name="danger_message">Desde este momento podras ser alertado al ingresar, salir y permanecer en zonas inseguras</string>
+    <string name="facebook_app_id">703844926493539</string>
+    <string name="app_name_to_show">Asistente de seguridad</string>
+</resources>
